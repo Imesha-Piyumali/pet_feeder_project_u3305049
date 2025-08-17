@@ -1,1 +1,9 @@
+Step_05_Test and verify solution
+
+Test case table already attached with PNG by renaming Step_05.1_Test_Case_Table
+
+Improvements:
+Use more efficient sensors 
+Notify all the pet feeding rounds
+implement to receive mobile notification to identify specific updates like when the bowl is empty and when the pet does not eat.
 
