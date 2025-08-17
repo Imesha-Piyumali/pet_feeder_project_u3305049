@@ -1,0 +1,31 @@
+Part 1 – The Problem-Solving Process
+Step 1 – Analyse & Define
+Deliverables:
+
+#
+Problem Statement
+ An animal shelter wants the cheapest cost with a programmable automated pet feeder for cats and dogs. It should distribute foods in a specific schedule, identify consumption, and return warning to working staff if there are any problems encountered. 
+That solution should be created with weight sensors,common electronics like LEDs, power supply, motors,regulators and so on.
+
+#
+Assumptions:
+Specific type of food for all the pets.
+Available memory space and how long processing power can apply (microcontroller-level hardware).
+Pets have specific feeding times per day (e.g., twice a day or thrice a day-breakfast, lunch and dinner).
+When reducing the foods, staff may get some notification or warning sound or message it is time to refill. 
+
+#
+Inputs:
+Input real-time clock to specifically when feeding time starts
+identify food level currently by using sensors.
+Measure the weight when starting and ending the feed by using a weight sensor.
+
+#
+Outputs:
+Distribute food
+Give a warning message with sound to working staff when foods are lacking. It should have a pop up light with a sound or buzzer or notification message.
+
+#
+Sketch/Diagram:
+
+				Block Diagram
