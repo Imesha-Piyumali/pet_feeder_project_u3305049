@@ -1,1 +1,25 @@
+Step_04_Implement the solution
+
+1.START
+2.Get current time
+3.If current equal to pet feeding schedule
+ THEN
+           	a-Read pet food level via sensor
+           	b-IF pet food level> 15% THEN
+                          	i.Rotate motor 90 degrees to distribute pet food
+                          	ii.Wait 10 minutes
+                          	iii.Identify bowl weight
+                          	iv.IF weight increase<threshold THEN
+                          	Send notification “Pet was not eaten”
+           	END IF
+ ELSE
+           	Send notification “Pet food bowl is empty”
+ END IF
+4.Repeat These steps continuously
+5.END
+
+Variable Names:
+Feeding_Time 
+Bowl_Weight_Before
+Bowl_Weight_After
 
